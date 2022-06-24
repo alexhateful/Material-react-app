@@ -63,6 +63,7 @@ export default function App() {
 						} />
 						<Route path="/edit/:id" element={ <Edit /> } />
 						<Route path="*" element={ <NotFound /> } />
+						<Route path="/Material-react-app" element={ <Home /> } />
 					</Routes>
 				</Box>
 			</Container>
